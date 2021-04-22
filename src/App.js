@@ -1,7 +1,10 @@
+import { GreetUser } from './GreetUser'
+import { Counter } from './Counter'
 export const App = () => {
   return (
     <div>
-      <h1>Hello världen!!!!!</h1>
+      <GreetUser name="Andreas" age={37}/>
+      <Counter/>
     </div>
   )
 }
